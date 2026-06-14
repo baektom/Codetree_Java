@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        // Please write your code here.
+        Scanner sc = new Scanner(System.in);
+        int i = 1;
+        while (i <= 100) {
+            int a = sc.nextInt();
+            if (a == 1) System.out.println("John");
+            else if (a == 2) System.out.println("Tom");
+            else if (a == 3) System.out.println("Paul");
+            else if (a == 4) System.out.println("Sam");
+            else {
+                System.out.println("Vacancy");
+                break;
+            }
+        }
+    }
+}
